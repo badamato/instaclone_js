@@ -58,15 +58,11 @@ img {
 }
 
 .mainImageCont {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 81px;
+    margin: 0 auto;
     display: flex;
     flex: 1 1 0;
     align-items: center;
     justify-content: center;
-
 }
 
 .lgImageCont {
@@ -77,6 +73,7 @@ img {
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
+    border: 3px solid orange;
 }
 
 .lgImageCont:hover {
@@ -99,6 +96,7 @@ img {
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding-top: 30px;
+    border: 3px solid green;
 }
   
 .thumbItem {
@@ -191,7 +189,7 @@ img {
 }
 
 .footerCont {
-    height: 50px;
+    height: 30px;
     width: 100%;
     position: absolute;
     bottom: 0;
